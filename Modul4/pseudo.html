@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Belajar Pseudo-class</title>
+    <style>
+        /* Sembunyikan paragraf secara default [cite: 74, 75] */
+        p {
+            display: none;
+            background-color: darkgray;
+            padding: 20px; [cite: 76, 77]
+        }
+
+        /* Tampilkan paragraf saat div di-hover [cite: 80, 81] */
+        div:hover p {
+            display: block;
+        }
+
+        /* Tugas tambahan: Link berubah warna [cite: 88, 89] */
+        a:link { color: blue; }
+        a:hover { color: red; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div> 
+        Letakkan kursor disini untuk melihat div element [cite: 85]
+        <p>Saya adalah element p</p> [cite: 86]
+    </div>
+
+    <br>
+    <a href="#">Contoh Link (Arahkan mouse ke sini)</a> [cite: 88]
+</body>
+</html>

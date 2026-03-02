@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Belajar Border Style</title>
+    <style>
+        /* Mengatur border pada elemen paragraf dengan class tertentu */
+        p.dotted { border-style: dotted; } /* Titik-titik [cite: 216] */
+        p.dashed { border-style: dashed; } /* Garis putus-putus [cite: 219] */
+        p.solid  { border-style: solid; }  /* Garis utuh [cite: 222] */
+        p.double { border-style: double; } /* Garis ganda [cite: 224] */
+        p.groove { border-style: groove; } /* Efek ukiran ke dalam [cite: 227] */
+        p.ridge  { border-style: ridge; }  /* Efek ukiran menonjol [cite: 230] */
+        p.inset  { border-style: inset; }  /* Efek bingkai masuk [cite: 233] */
+        p.outset { border-style: outset; } /* Efek bingkai keluar [cite: 236] */
+        p.none   { border-style: none; }   /* Tanpa border [cite: 238] */
+
+        /* Mengatur border pada elemen span (inline element) */
+        span.dotted { border-style: dotted; } [cite: 241]
+        span.outset { border-style: outset; } [cite: 244]
+        span.ridge  { border-style: ridge; }  [cite: 270]
+        span.inset  { border-style: inset; }  [cite: 272]
+    </style>
+</head>
+<body>
+
+    <h2>Macam-macam style border pada paragraf</h2> [cite: 253]
+    <p class="dotted">A dotted border.</p> [cite: 255]
+    <p class="dashed">A dashed border.</p> [cite: 257]
+    <p class="solid">A solid border.</p> [cite: 259]
+    <p class="double">A double border.</p> [cite: 261]
+    <p class="groove">A groove border.</p> [cite: 263]
+    <p class="none">No border.</p> [cite: 265]
+
+    <hr>
+
+    <h2>Macam-macam style border pada span</h2> [cite: 268]
+    <span class="ridge">A ridge border (span).</span><br> [cite: 270]
+    <span class="inset">An inset border (span).</span><br> [cite: 272]
+    <span class="dotted">An dotted border (span).</span><br> [cite: 275]
+    <span class="outset">An outset border (span).</span> [cite: 275]
+
+</body>
+</html>

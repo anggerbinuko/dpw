@@ -1,0 +1,19 @@
+/* Mengatur warna latar belakang seluruh halaman [cite: 103] */
+body {
+    background-color: #CCCCCC;
+}
+
+/* Mengatur ukuran font untuk judul h1 [cite: 105] */
+h1 {
+    font-size: 36pt;
+}
+
+/* Mengatur warna teks untuk judul h2 [cite: 107] */
+h2 {
+    color: blue;
+}
+
+/* Mengatur jarak margin kiri pada paragraf [cite: 109] */
+p {
+    margin-left: 50px;
+}
