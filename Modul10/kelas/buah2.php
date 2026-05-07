@@ -2,17 +2,20 @@
 class buah
 {
     public $nama;
-    protected $warna;
-    private $berat;
+    public $warna;
+    public $bobot;
     
-    public function set_name($n) {
+    // perhatikan access modifier pada fungsi ini => public
+    public function set_name($n) { 
         $this->nama = $n;
     }
+    // perhatikan access modifier pada fungsi ini => protected
     protected function set_color($n) {
         $this->warna = $n;
     }
+    // perhatikan access modifier pada fungsi ini => private
     private function set_weight($n) {
-        $this->berat = $n;
+        $this->bobot = $n;
     }
 }
 

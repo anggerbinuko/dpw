@@ -6,18 +6,6 @@ function bersihkan_input($data) {
     $data = htmlspecialchars($data);
     return $data;
 }
-
-$name = $email = $comment = "";
-
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $name = bersihkan_input($_POST["name"]);
-    $email = bersihkan_input($_POST["email"]);
-    $comment = bersihkan_input($_POST["comment"]);
-    echo("Nama :" . $name . "<br>");
-    echo("Email :" . $email . "<br>");
-    echo("Komentar :" . $comment . "<br>");
-    echo("<hr>");
-}
 ?>
 
 <!DOCTYPE html>
@@ -35,5 +23,21 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <input type="submit" value="simpan">
         <input type="reset" value="bersihkan">
     </form>
+    <hr>
+
+    <?php
+    
+        $name = $email = $comment = "";
+
+        if ($_SERVER["REQUEST_METHOD"] == "POST") {
+            $name = bersihkan_input($_POST["name"]);
+            $email = bersihkan_input($_POST["email"]);
+            $comment = bersihkan_input($_POST["comment"]);
+            echo("Nama :" . $name . "<br>");
+            echo("Email :" . $email . "<br>");
+            echo("Komentar :" . $comment . "<br>");
+            echo("<hr>");
+        }
+    ?>
 </body>
 </html>
