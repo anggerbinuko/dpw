@@ -29,6 +29,7 @@ Berikut adalah daftar modul yang telah diselesaikan. Silakan klik pada nama modu
 | 9 | **Modul 9** | Modul Praktikum 9 - PHP Lanjut | [Lihat Modul](https://drive.google.com/open?id=1j408ttjVwhBTLinnoyFBEmKr7OQBLzR3&usp=drive_fs) |
 | 10 | **Modul 10** | Modul Praktikum 10 - PHP OOP | [Lihat Modul](https://drive.google.com/open?id=1U3W4dmNV6u4Dj8splTJvUGlGLG7QzwI8&usp=drive_fs) |
 | 11 | **Modul 11** | Modul Praktikum 11 - PHP Database (CRUD) | [Lihat Modul](https://drive.google.com/file/d/1R2_wbjwLshdOpyKH0oyX8TMR_21AKZv1/view?usp=sharing) |  
+| 12 | **Modul 12** | Modul Praktikum 12 - PHP Database (OOP) | [Lihat Modul](https://drive.google.com/file/d/1p9oJ1OuGu5fQPQmQNbytKL8LSxlkrnsg/view?usp=sharing) |  
 
 ---
 
